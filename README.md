@@ -10,14 +10,14 @@ Sabit hızlı gerçek zamanlı step/dir/enable(opsiyonel) sinyali ile çalışan
 // Yazar Eyüp Fındıklı eyupfindikli@gmail.com  2016 12 25 
 
 // 
-#include <ConstSpeedStepGen.h>
+\#include <ConstSpeedStepGen.h>
 
 // The X Stepper pins
-#define STEPPER1_DIR_PIN 3
-#define STEPPER1_STEP_PIN 2
+define STEPPER1_DIR_PIN 3
+define STEPPER1_STEP_PIN 2
 // The Y stepper pins
-#define STEPPER2_DIR_PIN 7
-#define STEPPER2_STEP_PIN 6
+define STEPPER2_DIR_PIN 7
+define STEPPER2_STEP_PIN 6
 
 // Define some steppers and the pins the will use
 ConstSpeedStepGen stepper1(STEPPER1_STEP_PIN, STEPPER1_DIR_PIN);
